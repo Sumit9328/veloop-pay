@@ -114,8 +114,8 @@ Success
 ```
 ## 🌐 Live Demo
 
-[View Live Demo](YOUR_VERCEL_URL)
+[View Live Demo](https://veloop-8q3w2hz8g-sumit9328s-projects.vercel.app/)
 
 ## 💻 GitHub Repository
 
-[View Source Code](YOUR_GITHUB_REPO_URL)
+[View Source Code](https://github.com/Sumit9328/veloop-pay)
