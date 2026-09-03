@@ -1,17 +1,121 @@
-# React + Vite
+# VELOOP Rewards – Payout Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive frontend redesign for the VELOOP Rewards payout and redemption experience.
 
-Currently, two official plugins are available:
+The application provides a simple and polished flow for users to select a payout method, choose an available reward, check eligibility, enter payout details, review the redemption, and complete the redemption flow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+VELOOP Rewards is a frontend payout experience supporting multiple redemption methods:
 
-## Expanding the ESLint configuration
+- UPI Transfer
+- Amazon Pay
+- Google Play
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# veloop-pay
+The interface has been redesigned with a focus on:
+
+- Clear reward discovery
+- Easy payout method switching
+- Eligibility visibility
+- Simple reward selection
+- Secure-looking redemption experience
+- Form validation
+- Processing and success states
+- Responsive design across desktop and mobile
+- Accessible and touch-friendly controls
+
+The redemption flow is implemented entirely on the frontend using React state and local storage for demonstration purposes.
+
+> Note: This project does not include a backend payout service. Redemption, validation, processing, success, and balance deduction are simulated locally for the frontend assignment.
+
+---
+
+## 💳 Supported Payout Methods
+
+### UPI Transfer
+
+- Instant payout experience
+- UPI ID validation
+- UPI-specific visual identity
+- Available reward denominations
+- VE requirement and eligibility display
+
+### Amazon Pay
+
+- Amazon Pay reward vouchers
+- Email-based delivery
+- Email validation
+- Amazon-specific visual identity
+- Available reward denominations
+- VE requirement and eligibility display
+
+### Google Play
+
+- Google Play reward vouchers
+- Email-based delivery
+- Email validation
+- Google Play-specific visual identity
+- Available reward denominations
+- VE requirement and eligibility display
+
+---
+
+## ✨ Features
+
+- Three payout methods
+- Dynamic payout method selection
+- URL-based payout method routing
+- Reward selection
+- Available VE balance display
+- Reward eligibility checking
+- Insufficient VE handling
+- UPI ID validation
+- Email validation
+- Missing details validation
+- Redemption confirmation modal
+- Processing state
+- Success state
+- Local VE balance deduction
+- Remaining VE balance display
+- Responsive desktop and mobile layouts
+- Accessible form controls
+- Keyboard-friendly interaction
+- Focus states
+- Method-specific themes
+- Reusable UI structure
+- Local storage persistence for demo balance
+
+---
+
+## 🔄 Redemption Flow
+
+The application follows the following redemption journey:
+
+```text
+Choose Method
+      ↓
+Check Balance
+      ↓
+Select Reward
+      ↓
+Check Eligibility
+      ↓
+Enter Details
+      ↓
+Review Redemption
+      ↓
+Confirm Redemption
+      ↓
+Processing
+      ↓
+Success
+```
+## 🌐 Live Demo
+
+[View Live Demo](YOUR_VERCEL_URL)
+
+## 💻 GitHub Repository
+
+[View Source Code](YOUR_GITHUB_REPO_URL)
