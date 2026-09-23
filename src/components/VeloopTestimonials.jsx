@@ -15,7 +15,7 @@ const VeloopTestimonials = () => {
       text: "Approved review content will be placed here.",
     },
     {
-      name: "Approved Customer Review",
+      name: "Approved Customer valuable Review",
       role: "Customer",
       text: "Approved review content will be placed here.",
     },
