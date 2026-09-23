@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 const VeloopTestimonials = () => {
   const testimonials = [
     {
-      name: "Approved Customer Review",
+      name: "Approved Customers valuable Review",
       role: "Customer",
       text: "Approved review content will be placed here.",
     },
